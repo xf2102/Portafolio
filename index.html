@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>María Fernanda Ramírez Jiménez</h1>
+</header>
+
+<nav>
+    <table>
+        <tr>
+            <td><a href="#portafolio">Portafolio</a></td>
+            <td><a href="#hobby">Hobby</a></td>
+            <td><a href="#contacto">Contacto</a></td>
+        </tr>
+    </table>
+</nav>
+
+<section id="portafolio" class="tarjeta">
+    <h2>Portafolio</h2>
+    <img src="img/DUKO.jpg" alt="Duko" width="250">
+    <p>Actualmente estudio dos carreras:</p>
+    <ul>
+        <li>Tecnologías de la Información y Comunicación en la Universidad Nacional Rosario Castellanos.</li>
+        <li>Licenciatura en Enseñanza y Aprendizaje de la Física en la Escuela Normal Superior de México.</li>
+  	<li>Tengo 20 años y actualmente no cuento con experiencia laboral.</li>
+    </ul>
+   
+</section>
+
+<section id="hobby">
+    <h2>Mis Hobbies</h2>
+    <div class="Hobby">
+        <div>
+            <img src="img/DUKO.jpg" alt="DUKO">
+            <p>Mi cantante favorito es Duki.</p>
+        </div>
+        <div>
+            <img src="img/CA.jpg" alt="Cruz Azul">
+            <p>Mi equipo de fútbol favorito es el Cruz Azul.</p>
+        </div>
+        <div>
+            <img src="img/B.jpg" alt="Ballet">
+            <p>Estoy tomando clases de ballet.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="tarjeta">
+    <h2>Contacto</h2>
+    <form action="https://formspree.io/f/meozvpje" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="_replyto" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+    </div>
+    <p>&copy; 2025 - María Fernanda Ramírez Jiménez</p>
+</footer>
+
+</body>
+</html>
